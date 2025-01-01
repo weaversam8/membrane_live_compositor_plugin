@@ -1,10 +1,18 @@
+# ATTN: License change
+
+The official version of this plugin changed their license to BUSL as of commit `2cc217a` to match their parent project. This fork is based on the last commit under the Apache 2.0 license.
+
+A fork of the parent project pinned to the last valid Apache 2.0 is available at [github.com/weaversam8/live-compositor](https://github.com/weaversam8/live-compositor).
+
+<hr>
+
 # Membrane Live Compositor Plugin
 
 [![Hex.pm](https://img.shields.io/hexpm/v/membrane_video_compositor_plugin.svg)](https://hex.pm/packages/membrane_video_compositor_plugin)
 [![API Docs](https://img.shields.io/badge/api-docs-yellow.svg?style=flat)](https://hexdocs.pm/membrane_video_compositor_plugin)
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/membraneframework/membrane_live_compositor_plugin/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/membraneframework/membrane_live_compositor_plugin/tree/master)
 
-Membrane SDK for [LiveCompositor](https://compositor.live), that takes multiple input streams, transforms them according to provided transformations and composes them into output streams / videos.
+Membrane SDK for [LiveCompositor](https://github.com/weaversam8/live-compositor), that takes multiple input streams, transforms them according to provided transformations and composes them into output streams / videos.
 
 It is part of [Membrane Multimedia Framework](https://membrane.stream).
 
@@ -15,7 +23,7 @@ The package is not currently published on hex. It can be installed by adding `me
 ```elixir
 def deps do
   [
-    {:membrane_live_compositor_plugin, github: "membraneframework/membrane_live_compositor_plugin"}
+    {:membrane_live_compositor_plugin, github: "weaversam8/membrane_live_compositor_plugin"}
   ]
 end
 ```
