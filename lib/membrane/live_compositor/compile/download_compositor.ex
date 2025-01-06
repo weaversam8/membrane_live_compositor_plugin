@@ -5,7 +5,7 @@ defmodule Mix.Tasks.Compile.DownloadCompositor do
   use Mix.Task
   require Membrane.Logger
 
-  @lc_version "v0.2.0-rc.6"
+  @lc_version "v0.2.0-rc.7"
 
   @impl Mix.Task
   def run(_args) do
@@ -51,7 +51,7 @@ defmodule Mix.Tasks.Compile.DownloadCompositor do
 
   @spec lc_app_url(String.t()) :: String.t()
   def lc_app_url(architecture) do
-    "https://github.com/membraneframework/live_compositor/releases/download/#{@lc_version}/live_compositor_#{architecture}.tar.gz"
+    "https://github.com/weaversam8/live-compositor/releases/download/#{@lc_version}/live_compositor_#{architecture}.tar.gz"
   end
 
   defp lc_app_directory(architecture) do

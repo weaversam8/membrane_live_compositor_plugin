@@ -2,7 +2,7 @@
 
 The official version of this plugin changed their license to BUSL as of commit `2cc217a` to match their parent project. This fork is based on the last commit under the Apache 2.0 license.
 
-A fork of the parent project pinned to the last valid Apache 2.0 is available at [github.com/weaversam8/live-compositor](https://github.com/weaversam8/live-compositor).
+A fork of the parent project pinned to the last valid Apache 2.0 is available at [github.com/weaversam8/live-compositor](https://github.com/weaversam8/live-compositor). This fork has been modified to [download binaries](https://github.com/weaversam8/live-compositor/releases/tag/v0.2.0-rc.7) from that fork instead of the original project.
 
 <hr>
 
